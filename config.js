@@ -57,9 +57,9 @@ global.location = "UK, London, hertfordshire" //ur location
 
 global.owner = ['447405935355']
 
-global.ownertag = '447405935355' //ur tag number
+global.ownertag = '263786619852' //ur tag number
 
-global.botname = "𝒜𝓊𝓇𝑜𝓇𝒶 𝐵𝒪𝒯-𝑀𝒟" //ur bot name
+global.botname = "OSIAS-TECH" //ur bot name
 
 global.linkz = 'https://www.youtube.com/alienalfa' //your theme url which will be displayed on whatsapp
 
@@ -138,13 +138,13 @@ global.mess = {
 global.SessName = './session.alfa.json'
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
-let worktypez = process.env.WORKTYPE === undefined ? 'Private' : process.env.WORKTYPE
+let worktypez = process.env.WORKTYPE === undefined ? 'Public' : process.env.WORKTYPE
 //-------------
 let workres = worktypez.toLowerCase()  
 //-------------
 if (workres === 'public') {global.worktype = 'public'} 
 //-------------
-else {global.worktype = 'private'}
+else {global.worktype = 'public'}
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 global.gversion = '1.8.0 BETA TEST'
